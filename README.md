@@ -9,7 +9,7 @@ GTOHASH FILE DETAILS FUNCTION:
 function gtohash() {
                 lvl=$1
                 ext=$2
-                for files in `find -maxdepth $lvl -type f -iname "*$ext"`
+                for files in `find -maxdepth $lvl -type f -iname "$ext"`
                 do
                         echo -ne 'File:    ' && echo "$files"
                         echo -ne 'Path:    ' && pwd
@@ -39,7 +39,7 @@ Usage:
 gtohash [depth] [file]
 ```
 Depth = integer. 1 is current directory  
-File = in a precise file or .ext or all files (if nothing is specified as second argument)  
+File = in a precise file or *.ext or * (all files)  
 
 Examples:  
 ```bash
@@ -47,8 +47,8 @@ gtohash 1 my_interesting_file.txt
 ```
 
 ```bash
-gtohash 2 .exe
+gtohash 2 *.exe
 ```
 ```bash
-gtohash 50
+gtohash 50 *
 ```
