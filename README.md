@@ -4,7 +4,7 @@ Query include hidden files.
 
 1°/ Just add the following code to your .bashrc file:
 
-```
+```bash
 GTOHASH FILE DETAILS FUNCTION:
 function gtohash() {
                 lvl=$1
@@ -28,16 +28,26 @@ function gtohash() {
 
 
 2°/ Reload your .bashrc file, using
-`source ~/.bashrc`
+```bash
+source ~/.bashrc
+```
 
 
 Usage:
 
+```
 gtohash [depth] [file]
-Depth = integer. 1 is current directory.
-File = in a precise file or .ext or all files (if nothing is specified as second argument)
+```
+Depth = integer. 1 is current directory  
+File = in a precise file or .ext or all files (if nothing is specified as second argument)  
 
-Examples:
-`gtohash 1 my_interesting_file.txt`
-`gtohash 2 .exe`
-`gtohash 50`
+```bash
+gtohash 1 my_interesting_file.txt
+```
+
+```bash
+gtohash 2 .exe
+```
+```bash
+gtohash 50
+```
