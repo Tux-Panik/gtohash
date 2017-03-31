@@ -1,6 +1,6 @@
 # gtohash
-Provide useful details about a file or couple of files from current folder
-Query include hidden files.
+Provide useful details about a file or couple of files from current folder.  
+Query include hidden files.  
 
 1°/ Just add the following code to your .bashrc file:
 
@@ -41,6 +41,7 @@ gtohash [depth] [file]
 Depth = integer. 1 is current directory  
 File = in a precise file or .ext or all files (if nothing is specified as second argument)  
 
+Examples:  
 ```bash
 gtohash 1 my_interesting_file.txt
 ```
