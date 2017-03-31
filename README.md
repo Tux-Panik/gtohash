@@ -38,6 +38,6 @@ Depth = integer. 1 is current directory.
 File = in a precise file or .ext or all files (if nothing is specified as second argument)
 
 Examples:
-gtohash 1 my_interesting_file.txt
-gtohash 2 .exe
-gtohash 50
+`gtohash 1 my_interesting_file.txt`
+`gtohash 2 .exe`
+`gtohash 50`
