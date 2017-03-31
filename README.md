@@ -4,7 +4,8 @@ Query include hidden files.
 
 1°/ Just add the following code to your .bashrc file:
 
-#GTOHASH FILE DETAILS FUNCTION:
+
+```#GTOHASH FILE DETAILS FUNCTION:
 function gtohash() {
                 lvl=$1
                 ext=$2
@@ -22,7 +23,7 @@ function gtohash() {
                         echo -ne 'SHA-512: ' && sha512sum "$files" | awk '{ print $1 }'
                         echo ""
                 done
-                 }
+                 }```
 
 
 2°/ Reload your .bashrc file, using
