@@ -4,7 +4,6 @@ Query include hidden files.
 
 1°/ Just add the following code to your .bashrc file:
 
-=====================================================================================
 #GTOHASH FILE DETAILS FUNCTION:
 function gtohash() {
                 lvl=$1
@@ -24,7 +23,7 @@ function gtohash() {
                         echo ""
                 done
                  }
-=====================================================================================
+
 
 2°/ Reload your .bashrc file, using
 `source ~/.bashrc`
