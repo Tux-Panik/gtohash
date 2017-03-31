@@ -1,6 +1,6 @@
 # gtohash
 Provide useful details about a file or couple of files from current folder.  
-Query include hidden files.  
+Query includes hidden files.  
 
 1°/ Just add the following code to your .bashrc file:
 
